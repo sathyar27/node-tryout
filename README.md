@@ -42,6 +42,7 @@ It’s all quite confusing; clearly we need a program to sort through this mess.
     3) File with all Error messages messages sorted with timestamp
     4) File with all Error messages ,sorted by error level and with only 
        error level greater than 50 
+  - Print `Files created` once all files are written
   - Print the file sizes of all the created files once done (Optional)
 
 *Rules*
