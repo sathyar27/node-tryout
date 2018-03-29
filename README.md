@@ -5,6 +5,7 @@ Something has gone terribly wrong!
 * Files you should submit : index.js (you can also have additional ones)
 
 *Log file parsing*
+
 We’re really not sure what happened, but we did manage to recover
 the log file ` error.log `. It seems to consist of a different log message
 on each line. Each line begins with a character indicating the type of
