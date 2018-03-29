@@ -1,5 +1,6 @@
 **Fun with logs**
- Something has gone terribly wrong!
+
+Something has gone terribly wrong!
 * Files you will need: error.log,sample.log
 * Files you should submit : index.js (you can also have additional ones)
 
@@ -20,9 +21,12 @@ snippet of the log file including an informational message followed
 by a level 2 error message:
 
 `I 147 mice in the air, I’m afraid, but you might catch a bat, and`
+
 `E 2 148 #56k istereadeat lo d200ff\] BOOTMEM`
 
-E:Error 2:error-level 148:timestamp rest:message
+I:Informational | 147:timestamp | rest:message
+
+E:Error | 2:error-level | 148:timestamp | rest:message
 
 It’s all quite confusing; clearly we need a program to sort through this mess.
 
