@@ -1,7 +1,7 @@
 **Fun with logs**
 
 Something has gone terribly wrong!
-* Files you will need: error.log,sample.log
+* Files you will need: error.log,sample.log (given in the repo)
 * Files you should submit : index.js (you can also have additional ones)
 
 *Log file parsing*
@@ -10,9 +10,13 @@ We’re really not sure what happened, but we did manage to recover
 the log file ` error.log `. It seems to consist of a different log message
 on each line. Each line begins with a character indicating the type of
 log message it represents:
+
 • ’I’ for informational messages,
+
 • ’W’ for warnings, and
+
 • ’E’ for errors.
+
 The error message lines then have an integer indicating the severity
 of the error (error-level), with 1 being the sort of error you might get around to
 caring about sometime next summer, and 100 being epic, catastrophic
